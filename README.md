@@ -6,8 +6,8 @@ Data Dungeon is an educational C++/Qt game that teaches and visualizes fundament
 1) Features
 2) Installation
 3 )Gameplay
-4) Data Structures Used and Justification
-5) Project Structure in QT
+4) Project Structure in QT
+5) Data Structures Used and Justification
 
 ## Features
 - Interactive Puzzles: Each room presents a puzzle based on a specific data structure.
@@ -44,6 +44,41 @@ Steps:
 5) Timer: Each room has a countdown timer; failing to answer deducts health.
 6) Complete all rooms to escape and reveal the secret code word.
 
+# Project Structure in QT
+EscapeDataDungeon/
+- CMakeLists.txt
+- Forms/
+  - mainWindow.ui 
+- Header Files/
+  - mainWindow.h   
+  - gameengine.h
+  - puzzlebase.h   
+  - arraypuzzle.h 
+  - stackpuzzle.h     
+  - queuepuzzle.h 
+  - heappuzzle.h      
+  - linkedlistpuzzle.h
+  - bstpuzzle.h      
+  - storydialog.h 
+  - trappuzzle.h 
+- Header Files/
+  - resources.qrc
+    - images/ // Contains images 
+    - fonts/ // Contains custom fonts 
+- Source Files/
+  - main.cpp 
+  - mainWindow.cpp  
+  - gameengine.cpp
+  - puzzlebase.cpp   
+  - arraypuzzle.cpp 
+  - stackpuzzle.cpp     
+  - queuepuzzle.cpp 
+  - heappuzzle.cpp     
+  - linkedlistpuzzle.cpp
+  - bstpuzzle.cpp      
+  - storydialog.cpp 
+  - trappuzzle.cpp
+    
 ## Data Structures Used and their justification for Use
 Data Structure:
 1) Stack:
@@ -64,39 +99,5 @@ Data Structure:
 6) Binary Search Tree (BST):
 	 - Purpose: Binary Search Tree puzzles with visualization of nodes per level.
    - Justification: BST structure allows ordered insertion and retrieval, making level-based visualization intuitive for players.
-     
-# Project Structure in QT
-EscapeDataDungeon/
-- CMakeLists.txt
-- Forms/
-  - mainWindow.ui 
-- Header Files/
-  - mainWindow.h   
-  - gameengine.h
-  - puzzlebase.h   
-  - arraypuzzle.h 
-  - stackpuzzle.h     
-  - queuepuzzle.h 
-  - heapuzzle.h      
-  - linkedlistpuzzle.h
-  - bstpuzzle.h      
-  - storydialog.h 
-  - trappuzzle.h 
-├─ Resources/
-│  ├─ resources.qrc 
-│  ├─ ├─ images/ // Contains images 
-│  ├─ ├─ fonts/ // Contains custom fonts 
-├─ Source Files/
-│  ├─ main.cpp 
-│  ├─ mainWindow.cpp 
-│  ├─ gameengine.cpp  
-│  ├─ puzzlebase.cpp   
-│  ├─ arraypuzzle.cpp    
-│  ├─ stackpuzzle.cpp     
-│  ├─ queuepuzzle.cpp   
-│  ├─ heapuzzle.cpp      
-│  ├─ linkedlistpuzzle.cpp
-│  ├─ bstpuzzle.cpp    
-│  ├─ bstpuzzle.cpp 
 │  ├─ storydialog.cpp    
 │  ├─ trappuzzle.cpp 
