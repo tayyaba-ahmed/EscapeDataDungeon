@@ -50,7 +50,7 @@ EscapeDataDungeon/
 - Forms/
   - mainwindow.ui 
 - Header Files/
-  - mainWindow.h   
+  - mainwindow.h   
   - gameengine.h
   - puzzlebase.h   
   - arraypuzzle.h 
@@ -67,7 +67,7 @@ EscapeDataDungeon/
     - fonts/ // Contains custom fonts 
 - Source Files/
   - main.cpp 
-  - mainWindow.cpp  
+  - mainwindow.cpp  
   - gameengine.cpp
   - puzzlebase.cpp   
   - arraypuzzle.cpp 
@@ -86,7 +86,7 @@ Data Structure:
    - Justification: LIFO behavior naturally models “last life lost first” and stack puzzles rely on top-to-bottom order.
 2) Queue:
    - Purpose: Used in queue-based puzzles and element animations.
-   - FIFO behavior mirrors real queue operations, ideal for animating elements in order of arrival.
+   - Justification: FIFO behavior mirrors real queue operations, ideal for animating elements in order of arrival.
 3) Vector:
    - Purpose: Stores puzzle data for arrays, stacks, queues, heaps, and linked lists.
    - Justification: Provides dynamic, contiguous storage with fast indexed access, making it suitable for generating puzzle elements.
@@ -99,5 +99,3 @@ Data Structure:
 6) Binary Search Tree (BST):
 	 - Purpose: Binary Search Tree puzzles with visualization of nodes per level.
    - Justification: BST structure allows ordered insertion and retrieval, making level-based visualization intuitive for players.
-│  ├─ storydialog.cpp    
-│  ├─ trappuzzle.cpp 
