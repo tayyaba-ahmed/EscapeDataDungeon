@@ -35,12 +35,12 @@ Steps:
 1) Launch the game → story slides appear.
 2) Press Start Game to begin the dungeon challenge.
 3) Navigate through rooms:
-  - Solve the puzzle shown in the room.
-  - Type your answer in the input box and press Submit.
-  - Watch the animated data structures (stack, queue, etc.) as hints.
+   - Solve the puzzle shown in the room.
+   - Type your answer in the input box and press Submit.
+   - Watch the animated data structures (stack, queue, etc.) as hints.
 4) Health:
-  - Wrong answers deduct one heart from your health stack.
-  - Collect the key in some rooms to gain an extra heart.
+   - Wrong answers deduct one heart from your health stack.
+   - Collect the key in some rooms to gain an extra heart.
 5) Timer: Each room has a countdown timer; failing to answer deducts health.
 6) Complete all rooms to escape and reveal the secret code word.
 
@@ -67,21 +67,21 @@ Data Structure:
      
 # Project Structure in QT
 EscapeDataDungeon/
-├─ CMakeLists.txt
-├─ Forms/
-│  ├─ mainWindow.ui 
-├─ Header Files/
-│  ├─ mainWindow.h   
-│  ├─ gameengine.h
-│  ├─ puzzlebase.h   
-│  ├─ arraypuzzle.h 
-│  ├─ stackpuzzle.h     
-│  ├─ queuepuzzle.h 
-│  ├─ heapuzzle.h      
-│  ├─ linkedlistpuzzle.h
-│  ├─ bstpuzzle.h      
-│  ├─ storydialog.h 
-│  ├─ trappuzzle.h 
+- CMakeLists.txt
+- Forms/
+  - mainWindow.ui 
+- Header Files/
+  - mainWindow.h   
+  - gameengine.h
+  - puzzlebase.h   
+  - arraypuzzle.h 
+  - stackpuzzle.h     
+  - queuepuzzle.h 
+  - heapuzzle.h      
+  - linkedlistpuzzle.h
+  - bstpuzzle.h      
+  - storydialog.h 
+  - trappuzzle.h 
 ├─ Resources/
 │  ├─ resources.qrc 
 │  ├─ ├─ images/ // Contains images 
@@ -100,8 +100,3 @@ EscapeDataDungeon/
 │  ├─ bstpuzzle.cpp 
 │  ├─ storydialog.cpp    
 │  ├─ trappuzzle.cpp 
-
-
-Implement adaptive difficulty based on player performance.
-
-Export high scores and progress tracking.
