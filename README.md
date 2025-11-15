@@ -48,7 +48,7 @@ Steps:
 EscapeDataDungeon/
 - CMakeLists.txt
 - Forms/
-  - mainWindow.ui 
+  - mainwindow.ui 
 - Header Files/
   - mainWindow.h   
   - gameengine.h
