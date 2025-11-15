@@ -5,7 +5,7 @@ Data Dungeon is an educational C++/Qt game that teaches and visualizes fundament
 ## Table of Contents
 1) Features
 2) Installation
-3 )Gameplay
+3) Gameplay
 4) Project Structure in QT
 5) Data Structures Used and Justification
 
