@@ -1,0 +1,16 @@
+<RCC>
+    <qresource prefix="/images">
+        <file>1.jpeg</file>
+        <file>main.jpeg</file>
+        <file>main2.jpeg</file>
+        <file>2.jpeg</file>
+        <file>3.jpeg</file>
+        <file>4.jpeg</file>
+        <file>5.jpeg</file>
+        <file>6.jpeg</file>
+    </qresource>
+    <qresource prefix="/fonts">
+        <file>F.otf</file>
+        <file>Gildsley DEMO.otf</file>
+    </qresource>
+</RCC>
