@@ -61,7 +61,7 @@ EscapeDataDungeon/
   - bstpuzzle.h      
   - storydialog.h 
   - trappuzzle.h 
-- Header Files/
+- Resources/
   - resources.qrc
     - images/ // Contains images 
     - fonts/ // Contains custom fonts 
